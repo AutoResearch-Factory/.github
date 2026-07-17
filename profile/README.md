@@ -4,8 +4,10 @@ Human navigates, AI drives.
 
 ## Main project
 
-- [Agon](https://github.com/AutoResearch-Factory/Agon)  
+- [Agon](https://github.com/AutoResearch-Factory/Agon)<br>
   An open-source autonomous research system built as a Claude Code plugin.
+- [AgonAlpha](https://github.com/AutoResearch-Factory/AgonAlpha)<br>
+  Use [Prompt Economy](https://arxiv.org/abs/2606.08878) to find alphas.
 
 ## Papers
 
