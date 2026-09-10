@@ -39,20 +39,16 @@ Then drive the research forward with `/idea-tick`, `/proposal-tick`, `/experimen
 ## Papers
 
 [**Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy**](https://arxiv.org/abs/2606.24177)<br>
-Youran Sun, Xingyu Ren, Chugang Yi, Jiaxuan Guo, Kejia Zhang, Jianda Du, Haizhao Yang<br>
-[arXiv](https://arxiv.org/abs/2606.24177) · [Project page](https://haizhaoyang.github.io/research/autoresearch.html)
+Youran Sun, Xingyu Ren, Chugang Yi, Jiaxuan Guo, Kejia Zhang, Jianda Du, Haizhao Yang
 
 [**AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search**](https://arxiv.org/abs/2608.11250)<br>
-Weicheng Ye, Youran Sun, Xingyu Ren, Shunyao Yu, Chugang Yi, Haizhao Yang<br>
-[arXiv](https://arxiv.org/abs/2608.11250)
+Weicheng Ye, Youran Sun, Xingyu Ren, Shunyao Yu, Chugang Yi, Haizhao Yang
 
 [**AutoSR: Automatic Symbolic Regression by Searching Research States**](https://arxiv.org/abs/2608.16876)<br>
-Kejia Zhang, Youran Sun, Xinyu Ren, Chugang Yi, Haizhao Yang<br>
-[arXiv](https://arxiv.org/abs/2608.16876)
+Kejia Zhang, Youran Sun, Xinyu Ren, Chugang Yi, Haizhao Yang
 
 [**PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting**](https://arxiv.org/abs/2606.08878)<br>
-Youran Sun, Xingyu Ren, Kejia Zhang, Xinpeng Liu, Jiaxuan Guo<br>
-[arXiv](https://arxiv.org/abs/2606.08878)
+Youran Sun, Xingyu Ren, Kejia Zhang, Xinpeng Liu, Jiaxuan Guo
 
 ## Citation
 
