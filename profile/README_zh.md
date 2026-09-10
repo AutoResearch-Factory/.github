@@ -6,27 +6,27 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2606.24177-b31b1b.svg)](https://arxiv.org/abs/2606.24177)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-plugin-8A2BE2.svg)](https://claude.com/claude-code)
 
-English | [中文](https://github.com/AutoResearch-Factory/.github/blob/main/profile/README_zh.md)
+[English](https://github.com/AutoResearch-Factory) | 中文
 
-We build autonomous research systems that take a project from a one-line topic to running experiments, with no human-written experimental code. Agents plan, implement, audit and review each other in closed loops, and every handoff goes through a file on disk — so a run is recoverable, auditable, and reusable across projects. The workflow stays minimal and explicit: `topic → idea → proposal → experiment`.
+我们做自主科研系统: 把一个项目从一句话的课题一路推到跑起来的实验, 全程无人编写实验代码. 各个 agent 在闭环里互相规划, 实现, 审计和评审, 每一次交接都经由磁盘上的文件 —— 一次运行因此可恢复, 可审计, 也可跨项目复用. 流程保持最小且显式: `topic → idea → proposal → experiment`.
 
-Everything here is built on [**Prompt Economy**](https://arxiv.org/abs/2606.08878): treat prompt engineering as engineering, and minimize the engineering effort it demands from humans.
+这里的一切都构建于 [**Prompt Economy**](https://arxiv.org/abs/2606.08878) 之上: 把 prompt engineering 当作工程问题, 并最小化它对人的工程投入.
 
 ![Agon workflow](https://raw.githubusercontent.com/AutoResearch-Factory/Agon/main/figures/figure_xp.png)
 
-## Projects
+## 项目
 
 | | |
 |---|---|
-| [**Agon**](https://github.com/AutoResearch-Factory/Agon) | The core system. A Claude Code plugin for autonomous AI research, deployed across more than ten research domains. |
-| [**agon-artifacts**](https://github.com/AutoResearch-Factory/agon-artifacts) | Example data workspace for Agon — topics, ideas, proposals, and experiment workspaces. |
-| [**AutoSR**](https://github.com/AutoResearch-Factory/AutoSR) | Automated symbolic regression: a Claude Code plugin for symbolic ansatz search ([paper](https://arxiv.org/abs/2608.16876)). |
-| [**AgonAlpha**](https://github.com/AutoResearch-Factory/AgonAlpha) | Agent-based framework for automated alpha discovery ([paper](https://arxiv.org/abs/2608.11250)). |
-| [**AgonReproduce**](https://github.com/AutoResearch-Factory/AgonReproduce) | Prompt-first auditing of research claims: literature investigation, direct reproduction, and independent review in one traceable workflow. |
+| [**Agon**](https://github.com/AutoResearch-Factory/Agon) | 核心系统. 面向自主 AI 科研的 Claude Code 插件, 已在十余个研究领域部署. |
+| [**agon-artifacts**](https://github.com/AutoResearch-Factory/agon-artifacts) | Agon 的示例数据 workspace —— topics, ideas, proposals 和 experiment workspaces. |
+| [**AutoSR**](https://github.com/AutoResearch-Factory/AutoSR) | 自动符号回归: 用于符号 ansatz 搜索的 Claude Code 插件 ([论文](https://arxiv.org/abs/2608.16876)). |
+| [**AgonAlpha**](https://github.com/AutoResearch-Factory/AgonAlpha) | 面向自动 alpha 发现的 agent 框架 ([论文](https://arxiv.org/abs/2608.11250)). |
+| [**AgonReproduce**](https://github.com/AutoResearch-Factory/AgonReproduce) | prompt-first 的科研结论审计: 文献调查, 直接复现和独立评审, 收在一条可追溯的流程里. |
 
-## Quick start
+## 快速开始
 
-Clone the plugin and an artifacts workspace side by side, then run Claude Code from the workspace:
+把插件和一个 artifacts workspace 并排 clone 下来, 然后在 workspace 里启动 Claude Code:
 
 ```
 git clone https://github.com/AutoResearch-Factory/Agon.git
@@ -36,9 +36,9 @@ cd agon-artifacts
 claude --plugin-dir ../Agon --dangerously-skip-permissions --model claude-sonnet-5[1m]
 ```
 
-Then drive the research forward with `/idea-tick`, `/proposal-tick`, `/experiment-tick`, and `/deep-lit-tick`. See the [Agon README](https://github.com/AutoResearch-Factory/Agon) for details.
+然后用 `/idea-tick`, `/proposal-tick`, `/experiment-tick` 和 `/deep-lit-tick` 推进科研流程. 细节见 [Agon README](https://github.com/AutoResearch-Factory/Agon).
 
-## Papers
+## 论文
 
 [**Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy**](https://arxiv.org/abs/2606.24177)<br>
 Youran Sun, Xingyu Ren, Chugang Yi, Jiaxuan Guo, Kejia Zhang, Jianda Du, Haizhao Yang
@@ -52,7 +52,7 @@ Kejia Zhang, Youran Sun, Xinyu Ren, Chugang Yi, Haizhao Yang
 [**PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting**](https://arxiv.org/abs/2606.08878)<br>
 Youran Sun, Xingyu Ren, Kejia Zhang, Xinpeng Liu, Jiaxuan Guo
 
-## Citation
+## 引用
 
 ```bibtex
 @misc{sun2026agonautonomouslargescaleomnidisciplinary,
