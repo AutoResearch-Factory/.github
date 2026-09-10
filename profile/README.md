@@ -18,7 +18,7 @@ Everything here is built on [**Prompt Economy**](https://arxiv.org/abs/2606.0887
 |---|---|
 | [**Agon**](https://github.com/AutoResearch-Factory/Agon) | The core system. A Claude Code plugin for autonomous AI research, deployed across more than ten research domains. |
 | [**agon-artifacts**](https://github.com/AutoResearch-Factory/agon-artifacts) | Example data workspace for Agon — topics, ideas, proposals, and experiment workspaces. |
-| [**AutoSR**](https://github.com/AutoResearch-Factory/AutoSR) | Automated symbolic regression: a Claude Code plugin for symbolic ansatz search. |
+| [**AutoSR**](https://github.com/AutoResearch-Factory/AutoSR) | Automated symbolic regression: a Claude Code plugin for symbolic ansatz search ([paper](https://arxiv.org/abs/2608.16876)). |
 | [**AgonAlpha**](https://github.com/AutoResearch-Factory/AgonAlpha) | Agent-based framework for automated alpha discovery ([paper](https://arxiv.org/abs/2608.11250)). |
 | [**AgonReproduce**](https://github.com/AutoResearch-Factory/AgonReproduce) | Prompt-first auditing of research claims: literature investigation, direct reproduction, and independent review in one traceable workflow. |
 
@@ -46,6 +46,10 @@ Youran Sun, Xingyu Ren, Chugang Yi, Jiaxuan Guo, Kejia Zhang, Jianda Du, Haizhao
 Weicheng Ye, Youran Sun, Xingyu Ren, Shunyao Yu, Chugang Yi, Haizhao Yang<br>
 [arXiv](https://arxiv.org/abs/2608.11250)
 
+[**AutoSR: Automatic Symbolic Regression by Searching Research States**](https://arxiv.org/abs/2608.16876)<br>
+Kejia Zhang, Youran Sun, Xinyu Ren, Chugang Yi, Haizhao Yang<br>
+[arXiv](https://arxiv.org/abs/2608.16876)
+
 [**PerspectiveGap: A Benchmark for Multi-Agent Orchestration Prompting**](https://arxiv.org/abs/2606.08878)<br>
 Youran Sun, Xingyu Ren, Kejia Zhang, Xinpeng Liu, Jiaxuan Guo<br>
 [arXiv](https://arxiv.org/abs/2606.08878)
@@ -71,6 +75,16 @@ Youran Sun, Xingyu Ren, Kejia Zhang, Xinpeng Liu, Jiaxuan Guo<br>
       archivePrefix={arXiv},
       primaryClass={cs.AI},
       url={https://arxiv.org/abs/2608.11250},
+}
+
+@misc{zhang2026autosrautomaticsymbolicregression,
+      title={AutoSR: Automatic Symbolic Regression by Searching Research States},
+      author={Kejia Zhang and Youran Sun and Xinyu Ren and Chugang Yi and Haizhao Yang},
+      year={2026},
+      eprint={2608.16876},
+      archivePrefix={arXiv},
+      primaryClass={cs.SC},
+      url={https://arxiv.org/abs/2608.16876},
 }
 
 @misc{sun2026perspectivegapbenchmarkmultiagentorchestration,
